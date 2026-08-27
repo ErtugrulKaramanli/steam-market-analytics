@@ -31,7 +31,7 @@ The project combines domain-specific metrics (revenue share, unit sales, pricing
 ```
 ## 🛠️ Tech Stack & Methods
 
-* Data Source: Kaggle - Gaming Profiles (Steam subset selected from ~60GB multi-platform dataset)
+* Data Source: [Kaggle - Gaming Profiles 2025 (Steam, PlayStation, Xbox)](https://www.kaggle.com/datasets/artyomkruglov/gaming-profiles-2025-steam-playstation-xbox/data) *(Steam subset extracted from ~60GB multi-platform dataset)*
 
 * Data Warehouse: Google BigQuery
 
@@ -102,8 +102,7 @@ Genre Clustering (K-Means Segmentation):
     └── dbt_project.yml       # dbt project config
 ```
 ## 📊 Dashboards & Media
-🔗 Interactive Looker Studio Board: [Canlı Looker Studio Linkiniz]
-
+🔗 Interactive Looker Studio Board: [https://datastudio.google.com/reporting/a0864474-3514-4b0d-9003-2a56fa548037]
 📄 High-Res Screenshots & PDF Report: Available under the /docs folder.
 
 ## 👥 Contributors
