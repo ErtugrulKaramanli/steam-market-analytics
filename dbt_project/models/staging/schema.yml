@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: bq_steam
+    schema: Steam  # 👈 KESİN ÇÖZÜM: dbt'ye gerçek dataset adının "Steam" olduğunu söylüyoruz
+    tables:
+      - name: history
+      - name: achievements
+      - name: games
+      - name: prices
