@@ -31,21 +31,21 @@ The project combines domain-specific metrics (revenue share, unit sales, pricing
 ```
 ## 🛠️ Tech Stack & Methods
 
-Data Source: Kaggle - Gaming Profiles (Steam subset selected from ~60GB multi-platform dataset)
+* Data Source: Kaggle - Gaming Profiles (Steam subset selected from ~60GB multi-platform dataset)
 
-Data Warehouse: Google BigQuery
+* Data Warehouse: Google BigQuery
 
-Data Transformation: dbt (data build tool)
+* Data Transformation: dbt (data build tool)
 
-Machine Learning & Scripting: Python, Google Colab (Pandas, Scikit-Learn, Statsmodels)
+* Machine Learning & Scripting: Python, Google Colab (Pandas, Scikit-Learn, Statsmodels)
 
-Visualization: Looker Studio
+* Visualization: Looker Studio
 
-Predictive Algorithms: Holt Exponential Smoothing Time-Series Forecasting, K-Means Clustering, Logistic Regression / TF-IDF (NLP)
+* Predictive Algorithms: Holt Exponential Smoothing Time-Series Forecasting, K-Means Clustering, Logistic Regression / TF-IDF (NLP)
 
 ## 📌 Project Highlights & Key Insights
 
-1. 📈 Steam Market & Genre Dynamics (Primary Contribution)
+**1. 📈 Steam Market & Genre Dynamics (Primary Contribution)**
 
 KPI Metrics & Financial Dominance:
 
