@@ -28,7 +28,7 @@ The project combines domain-specific metrics (revenue share, unit sales, pricing
                     │
                     ▼  (Visualization & Reporting)
 [ Looker Studio ] ──( Interactive Dashboard & Business Insights )
-
+```
 ## 🛠️ Tech Stack & Methods
 
 Data Source: Kaggle - Gaming Profiles (Steam subset selected from ~60GB multi-platform dataset)
@@ -90,8 +90,7 @@ Dashboard Design: Designed interactive Looker Studio dashboard pages (Revenue He
 Code Review & Feedback: Conducted iterative peer reviews on team dbt transformations and dashboard layouts to maintain metric consistency.
 
 ## 📁 Repository Structure
-
-Plaintext
+```text
 .
 ├── README.md                 # Project documentation and analytical insights
 ├── docs/                     # Presentation slides (PDF) and dashboard screenshots
@@ -101,6 +100,7 @@ Plaintext
     ├── tests/                # Custom data quality tests
     ├── seeds/                # Static lookup CSVs
     └── dbt_project.yml       # dbt project config
+```
 ## 📊 Dashboards & Media
 🔗 Interactive Looker Studio Board: [Canlı Looker Studio Linkiniz]
 
