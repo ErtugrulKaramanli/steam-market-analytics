@@ -69,7 +69,7 @@ Genre Clustering (K-Means Segmentation):
 
 * Emerging Potential: Simulation (high growth momentum) and Early Access titles (driven by high average pricing).
 
-* **2. 🌐 Team Collaboration Modules**
+**2. 🌐 Team Collaboration Modules**
 
 * Player Behavior & Churn Risk: Country-level engagement tracking (US, Brazil, Russia lead active counts) and cohort retention monitoring.
 
