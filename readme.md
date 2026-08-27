@@ -102,7 +102,7 @@ Genre Clustering (K-Means Segmentation):
     └── dbt_project.yml       # dbt project config
 ```
 ## 📊 Dashboards & Media
-🔗 Interactive Looker Studio Board: [https://datastudio.google.com/reporting/a0864474-3514-4b0d-9003-2a56fa548037]
+🔗 [Interactive Looker Studio Board](https://datastudio.google.com/reporting/a0864474-3514-4b0d-9003-2a56fa548037)
 📄 High-Res Screenshots & PDF Report: Available under the /docs folder.
 
 ## 👥 Contributors
