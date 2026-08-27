@@ -49,45 +49,45 @@ The project combines domain-specific metrics (revenue share, unit sales, pricing
 
 KPI Metrics & Financial Dominance:
 
-Action, Adventure, and Indie genres lead overall revenue generation, with Action alone capturing 27.22% of total market revenue ($1.27M) and 21.27% of sales volume.
+* Action, Adventure, and Indie genres lead overall revenue generation, with Action alone capturing 27.22% of total market revenue ($1.27M) and 21.27% of sales volume.
 
-Indie and Casual genres demonstrate value-driven dynamics with high unit volume relative to price points.
+* Indie and Casual genres demonstrate value-driven dynamics with high unit volume relative to price points.
 
 Historical Trend Analysis (Post-2019 Growth):
 
-Market expansion accelerated rapidly after 2019, deepening the revenue gap between top-tier genres and niche markets. Action's market share contracted from 50% down to 25% due to genre diversification.
+* Market expansion accelerated rapidly after 2019, deepening the revenue gap between top-tier genres and niche markets. Action's market share contracted from 50% down to 25% due to genre diversification.
 
 Forecasting (Holt Model vs. Baseline):
 
-Replaced equal-weighted Linear Regression with a Holt Exponential Smoothing model trained via Python in Google Colab to prioritize recent market trends. Achieved a 14x reduction in error rate compared to the baseline (Baseline MAPE: 1,727% vs. Holt Model MAPE: 121%).
+* Replaced equal-weighted Linear Regression with a Holt Exponential Smoothing model trained via Python in Google Colab to prioritize recent market trends. Achieved a 14x reduction in error rate compared to the baseline (Baseline MAPE: 1,727% vs. Holt Model MAPE: 121%).
 
 Genre Clustering (K-Means Segmentation):
 
-Applied K-Means clustering evaluated with a Silhouette Score of 0.53 (improving over baseline -0.30):
+* Applied K-Means clustering evaluated with a Silhouette Score of 0.53 (improving over baseline -0.30):
 
-Star Genres (High Revenue, High Growth): Action, Adventure, RPG — Core drivers for large-budget projects.
+* Star Genres (High Revenue, High Growth): Action, Adventure, RPG — Core drivers for large-budget projects.
 
-Emerging Potential: Simulation (high growth momentum) and Early Access titles (driven by high average pricing).
+* Emerging Potential: Simulation (high growth momentum) and Early Access titles (driven by high average pricing).
 
-2. 🌐 Team Collaboration Modules
+* **2. 🌐 Team Collaboration Modules**
 
-Player Behavior & Churn Risk: Country-level engagement tracking (US, Brazil, Russia lead active counts) and cohort retention monitoring.
+* Player Behavior & Churn Risk: Country-level engagement tracking (US, Brazil, Russia lead active counts) and cohort retention monitoring.
 
-Review Sentiment & Risk Scoring: TF-IDF keyword extraction paired with Logistic Regression (61.5% accuracy, 96% Bug Recall) to score publisher operational risk.
+* Review Sentiment & Risk Scoring: TF-IDF keyword extraction paired with Logistic Regression (61.5% accuracy, 96% Bug Recall) to score publisher operational risk.
 
-Purchasing Power (Turkey Focus): Economic indexing evaluating minimum wage to game price ratios and working-hour conversion metrics.
+* Purchasing Power (Turkey Focus): Economic indexing evaluating minimum wage to game price ratios and working-hour conversion metrics.
 
 ## 👤 My Role & Specific Contributions
 
-As part of a 4-5 member collaborative team, I took ownership of the Steam Market & Genre Dynamics vertical:
+* As part of a 4-5 member collaborative team, I took ownership of the Steam Market & Genre Dynamics vertical:
 
-dbt Data Modeling: Built transformation pipelines in dbt to clean raw Steam logs, structure revenue/sales aggregates, and publish staging tables to BigQuery.
+* dbt Data Modeling: Built transformation pipelines in dbt to clean raw Steam logs, structure revenue/sales aggregates, and publish staging tables to BigQuery.
 
-Machine Learning (Google Colab & Python): Exported cleaned dbt outputs to Google Colab, engineered the Holt Forecasting Model for revenue projections, built the K-Means Genre Clustering algorithm, and wrote prediction outputs back to BigQuery.
+* Machine Learning (Google Colab & Python): Exported cleaned dbt outputs to Google Colab, engineered the Holt Forecasting Model for revenue projections, built the K-Means Genre Clustering algorithm, and wrote prediction outputs back to BigQuery.
 
-Dashboard Design: Designed interactive Looker Studio dashboard pages (Revenue Heatmaps, Time-Series Projections, and Cluster Scatterplots).
+* Dashboard Design: Designed interactive Looker Studio dashboard pages (Revenue Heatmaps, Time-Series Projections, and Cluster Scatterplots).
 
-Code Review & Feedback: Conducted iterative peer reviews on team dbt transformations and dashboard layouts to maintain metric consistency.
+* Code Review & Feedback: Conducted iterative peer reviews on team dbt transformations and dashboard layouts to maintain metric consistency.
 
 ## 📁 Repository Structure
 ```text
